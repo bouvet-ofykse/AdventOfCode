@@ -1,11 +1,11 @@
 namespace AdventOfCode2024._1;
 
-public class December1
+public class PartOne
 {
     public static int CalculateDistance()
     {
         string line;
-        string content = File.ReadAllText("../../../1/Part1/PuzzleInput.txt");
+        string content = File.ReadAllText("../../../1/PuzzleInput.txt");
         int sum = 0;
         
         List<int> list1 = new List<int>();
