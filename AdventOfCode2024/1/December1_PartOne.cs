@@ -1,6 +1,6 @@
 namespace AdventOfCode2024._1;
 
-public class PartOne
+public class December1_PartOne
 {
     public static int CalculateDistance()
     {

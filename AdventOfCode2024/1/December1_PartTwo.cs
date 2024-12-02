@@ -1,6 +1,6 @@
 namespace AdventOfCode2024._1;
 
-public class PartTwo
+public class December1_PartTwo
 {
     public static int CalculateSimilarity()
     {
