@@ -1,10 +1,11 @@
 namespace AdventOfCode2024._4;
 
-public static class December5_PartOne
+public static class December5_PartTwo
 {
     static List<Rule> rules = new ();
     static List<List<int>> updates = new ();
-
+    static List<List<int>> incorrectlyOrderedUpdates = new ();
+    
     public static int CalculateSafeUpdates()
     {
         string content = File.ReadAllText("../../../5/PuzzleInput.txt");
@@ -41,13 +42,23 @@ public static class December5_PartOne
 
         foreach (var update in updates)
         {
-            sum += PagesAreInCorrectOrder(update);
+            if (!PagesAreInCorrectOrder(update))
+            {
+                incorrectlyOrderedUpdates.Add(update);
+            }
         }
-        
-        return sum;
+
+        return incorrectlyOrderedUpdates
+            .Select(update =>
+            {
+                update.Sort((a, b) => rules.Any(x => x.PageNumber == a) && rules.Single(x => x.PageNumber == a).After.Any(x => x == b) ? 1 : -1);
+                return update[update.Count / 2];
+            })
+            .Sum();
     }
 
-    private static int PagesAreInCorrectOrder(List<int> update)
+
+    private static bool PagesAreInCorrectOrder(List<int> update)
     {
 
         for (int i = 0; i < update.Count; i++)
@@ -58,12 +69,12 @@ public static class December5_PartOne
             if (rules.Any(rule => rule.PageNumber == update[i]))
             {
                 Rule rule = rules.Single(rule => rule.PageNumber == update[i]);
-                if (!updateNumbersBefore.All(x => rule.Before.Contains(x))) return 0;
-                if (!updateNumbersAfter.All(x => rule.After.Contains(x))) return 0;
+                if (!updateNumbersBefore.All(x => rule.Before.Contains(x))) return false;
+                if (!updateNumbersAfter.All(x => rule.After.Contains(x))) return false;
             }
 
         }
-        return update[update.Count/2];
+        return true;
     }
 
     private static void PopulateBeforeInAllRules()
