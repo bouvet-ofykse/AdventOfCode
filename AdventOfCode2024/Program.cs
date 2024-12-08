@@ -18,3 +18,6 @@ Console.WriteLine($"December 4 - Part 2: {December4_PartTwo.FinNumberOfXmasAppea
 Console.WriteLine($"December 5 - Part 1: {December5_PartOne.CalculateSafeUpdates()}");
 
 Console.WriteLine($"December 6 - Part 1: {December6_PartOne.PredictGuardsRoute()}");
+
+Console.WriteLine($"December 7 - Part 1: {December7_PartOne.CalculateResults()}");
+Console.WriteLine($"December 7 - Part 2: {December7_PartTwo.CalculateResults()}");
