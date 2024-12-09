@@ -1,2 +1,9 @@
-- name: AoC-badges
-  uses: J0B10/aoc-badges-action@v3.0.0  
+
+name: Get AOC info
+on: [push]
+jobs:
+  Get-badge-info-from-AOC:
+    runs-on: ubuntu-latest
+    steps:
+    - name: AoC-badges
+      uses: J0B10/aoc-badges-action@v3.0.0
