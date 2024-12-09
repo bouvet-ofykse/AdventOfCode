@@ -2,6 +2,7 @@
 using AdventOfCode2024._2;
 using AdventOfCode2024._3;
 using AdventOfCode2024._4;
+using AdventOfCode2024._8;
 
 Console.WriteLine($"December 1 - Part 1: {December1_PartOne.CalculateDistance()}");
 Console.WriteLine($"December 1 - Part 2: {December1_PartTwo.CalculateSimilarity()}");
@@ -22,3 +23,6 @@ Console.WriteLine($"December 6 - Part 1: {December6_PartOne.PredictGuardsRoute()
 
 Console.WriteLine($"December 7 - Part 1: {December7_PartOne.CalculateResults()}");
 Console.WriteLine($"December 7 - Part 2: {December7_PartTwo.CalculateResults()}");
+
+Console.WriteLine($"December 8 - Part 1: {December8_PartOne.CalculateUniqeLocationsOfAntinode()}");
+Console.WriteLine($"December 8 - Part 2: {December8_PartTwo.CalculateUniqeLocationsOfAntinode()}");
