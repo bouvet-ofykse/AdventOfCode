@@ -2,7 +2,11 @@
 using AdventOfCode2024._2;
 using AdventOfCode2024._3;
 using AdventOfCode2024._4;
+using AdventOfCode2024._5;
+using AdventOfCode2024._6;
+using AdventOfCode2024._7;
 using AdventOfCode2024._8;
+using AdventOfCode2024._9;
 
 Console.WriteLine($"December 1 - Part 1: {December1_PartOne.CalculateDistance()}");
 Console.WriteLine($"December 1 - Part 2: {December1_PartTwo.CalculateSimilarity()}");

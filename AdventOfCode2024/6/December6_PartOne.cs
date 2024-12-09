@@ -1,5 +1,5 @@
 
-namespace AdventOfCode2024._4;
+namespace AdventOfCode2024._6;
 
 public static class December6_PartOne
 {
