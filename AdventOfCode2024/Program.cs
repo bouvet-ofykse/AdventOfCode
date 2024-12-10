@@ -1,4 +1,5 @@
 ﻿using AdventOfCode2024._1;
+using AdventOfCode2024._10;
 using AdventOfCode2024._2;
 using AdventOfCode2024._3;
 using AdventOfCode2024._4;
@@ -31,4 +32,8 @@ using AdventOfCode2024._9;
 // Console.WriteLine($"December 8 - Part 1: {December8_PartOne.CalculateUniqeLocationsOfAntinode()}");
 // Console.WriteLine($"December 8 - Part 2: {December8_PartTwo.CalculateUniqeLocationsOfAntinode()}");
 
-Console.WriteLine($"December 9 - Part 1: {December9_PartOne.CalculateFilesystemChecksum()}");
+// Console.WriteLine($"December 9 - Part 1: {December9_PartOne.CalculateFilesystemChecksum()}");
+// Console.WriteLine($"December 9 - Part 1: {December9_PartTwo.CalculateFilesystemChecksum()}");
+
+// Console.WriteLine($"December 10 - Part 1: {December10_PartOne.CalculateScoresOfAllTrailheads()}");
+Console.WriteLine($"December 10 - Part 2: {December10_PartTwo.CalculateScoresOfAllTrailheads()}");
