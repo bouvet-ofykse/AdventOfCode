@@ -4,7 +4,7 @@ namespace AdventOfCode2024._9;
 public static class December9_PartOne
 {
 
-    private static List<char> _currentDiskMap = new ();
+    private static List<int> _currentDiskMap = new ();
     public static long CalculateFilesystemChecksum()
     {
         long checksum = 0;
@@ -27,37 +27,23 @@ public static class December9_PartOne
             {
                 _currentDiskMap.AddRange(CreateEmptyBlocks(diskMap[block]));
             }
-            
         }
         
-        
         Console.WriteLine("Done writing disk map");
-        // Console.WriteLine(_currentDiskMap);
-
 
         while (!IsFinished())
         {
-            var firstVacantBlock = _currentDiskMap.IndexOf('.');
-            var blockToMove = _currentDiskMap.FindLastIndex(block => block != '.');
+            var firstVacantBlock = _currentDiskMap.IndexOf(-1);
+            var blockToMove = _currentDiskMap.FindLastIndex(block => block != -1);
             MoveBlock(firstVacantBlock, blockToMove);
-            // _currentDiskMap.ForEach(Console.Write);
-            // Console.WriteLine();
         }
 
         _currentDiskMap.ForEach(Console.Write);
         Console.WriteLine();
         Console.WriteLine("Done moving blocks");
-        for (int i = 0; i < _currentDiskMap.Count(block => block != '.'); i++)
+        Console.WriteLine($"Calculating checksum for {_currentDiskMap.Count(block => block != -1)} blocks");
+        for (int i = 0; i < _currentDiskMap.Count(block => block != -1); i++)
         {
-            if (int.Parse(_currentDiskMap[i].ToString()) == -1)
-            {
-                Console.WriteLine($"Something went wrong");
-            }
-
-            if (i % 10000 == 0)
-            {
-                Console.WriteLine($"Done calculating {i} blocks"); 
-            }
             
             var first = long.Parse(_currentDiskMap[i].ToString());
             var second = i;
@@ -69,26 +55,26 @@ public static class December9_PartOne
 
     private static void MoveBlock(int moveToIndex, int freeUpIndex)
     {
-        _currentDiskMap[moveToIndex] = _currentDiskMap.Last(block => block != '.');
-        _currentDiskMap[freeUpIndex]= '.';
+        _currentDiskMap[moveToIndex] = _currentDiskMap.Last(block => block != -1);
+        _currentDiskMap[freeUpIndex]= -1;
     }
 
-    private static List<char> CreateFileBlocks(int numberOfBlocks, int blockId)
+    private static List<int> CreateFileBlocks(int numberOfBlocks, int blockId)
     {
-        var fileBlocks = "";
+        var fileBlocks = new List<int>();
         for (int i = 0; i < numberOfBlocks; i++)
         {
-            fileBlocks += blockId.ToString();
+            fileBlocks.Add(blockId);
         }
 
         return fileBlocks.ToList();
     }
-    private static List<char> CreateEmptyBlocks(int blocks)
+    private static List<int> CreateEmptyBlocks(int blocks)
     {
-        var emptyBlocks = "";
+        var emptyBlocks = new List<int>();
         for (int i = 0; i < blocks; i++)
         {
-            emptyBlocks += ".";
+            emptyBlocks.Add(-1);
         }
 
         return emptyBlocks.ToList();
@@ -96,9 +82,8 @@ public static class December9_PartOne
 
     private static bool IsFinished()
     {
-        var lastBlockThatIsANumber = _currentDiskMap.Last(block => block != '.');
+        var lastBlockThatIsANumber = _currentDiskMap.Last(block => block != -1);
         var replacedBlocks = _currentDiskMap.Slice(0,_currentDiskMap.LastIndexOf(lastBlockThatIsANumber));
-        return !replacedBlocks.Contains('.');
+        return !replacedBlocks.Contains(-1);
     }
- 
 }
