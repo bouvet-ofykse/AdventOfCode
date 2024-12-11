@@ -1,5 +1,6 @@
 ﻿using AdventOfCode2024._1;
 using AdventOfCode2024._10;
+using AdventOfCode2024._11;
 using AdventOfCode2024._2;
 using AdventOfCode2024._3;
 using AdventOfCode2024._4;
@@ -36,4 +37,7 @@ using AdventOfCode2024._9;
 // Console.WriteLine($"December 9 - Part 1: {December9_PartTwo.CalculateFilesystemChecksum()}");
 
 // Console.WriteLine($"December 10 - Part 1: {December10_PartOne.CalculateScoresOfAllTrailheads()}");
-Console.WriteLine($"December 10 - Part 2: {December10_PartTwo.CalculateScoresOfAllTrailheads()}");
+// Console.WriteLine($"December 10 - Part 2: {December10_PartTwo.CalculateScoresOfAllTrailheads()}");
+
+// Console.WriteLine($"December 11 - Part 1: {December11_PartOne.SumNumberOfStonesAfterBlinks()}");
+Console.WriteLine($"December 11 - Part 2: {December11_PartTwo.SumNumberOfStonesAfterBlinks()}");
