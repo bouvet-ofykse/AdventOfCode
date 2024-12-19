@@ -3,6 +3,7 @@ using AdventOfCode2024._10;
 using AdventOfCode2024._11;
 using AdventOfCode2024._13;
 using AdventOfCode2024._14;
+using AdventOfCode2024._19;
 using AdventOfCode2024._2;
 using AdventOfCode2024._3;
 using AdventOfCode2024._4;
@@ -60,4 +61,7 @@ using AdventOfCode2024._9;
 // Day 13
 
 // Day 14
-Console.WriteLine($"December 14 - Part 1: {December14.CalculateBathroomSaftyFactor()}");
+// Console.WriteLine($"December 14 - Part 1: {December14.CalculateBathroomSaftyFactor()}");
+
+// Day 14
+Console.WriteLine($"December 19 - Part 1: {December19_PartOne.CalculateNumberOfPossibleDesigns()}");
