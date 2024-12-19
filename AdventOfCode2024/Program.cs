@@ -64,4 +64,5 @@ using AdventOfCode2024._9;
 // Console.WriteLine($"December 14 - Part 1: {December14.CalculateBathroomSaftyFactor()}");
 
 // Day 14
-Console.WriteLine($"December 19 - Part 1: {December19_PartOne.CalculateNumberOfPossibleDesigns()}");
+// Console.WriteLine($"December 19 - Part 1: {December19_PartOne.CalculateNumberOfPossibleDesigns()}");
+Console.WriteLine($"December 19 - Part 2: {December19_PartTwo.CalculateNumberOfPossibleDesigns()}");
