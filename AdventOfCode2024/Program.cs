@@ -3,6 +3,7 @@ using AdventOfCode2024._10;
 using AdventOfCode2024._11;
 using AdventOfCode2024._13;
 using AdventOfCode2024._14;
+using AdventOfCode2024._16;
 using AdventOfCode2024._19;
 using AdventOfCode2024._2;
 using AdventOfCode2024._3;
@@ -60,11 +61,21 @@ using AdventOfCode2024._9;
 
 // Day 13
 // Console.WriteLine($"December 13 - Part 1: {December13_PartOne.CalculateTokensToWinAllPrizes()}");
-Console.WriteLine($"December 13 - Part 2: {December13_PartTwo.CalculateTokensToWinAllPrizes()}");
+// Console.WriteLine($"December 13 - Part 2: {December13_PartTwo.CalculateTokensToWinAllPrizes()}");
 
 // Day 14
 // Console.WriteLine($"December 14 - Part 1: {December14.CalculateBathroomSaftyFactor()}");
 
-// Day 14
+// Day 15
+
+// Day 16
+Console.WriteLine($"December 16 - Part 1: {December16_PartOne.CalculateLowestReindeerScore()}");
+
+// Day 17
+
+// Day 18
+
+// Day 19
 // Console.WriteLine($"December 19 - Part 1: {December19_PartOne.CalculateNumberOfPossibleDesigns()}");
 // Console.WriteLine($"December 19 - Part 2: {December19_PartTwo.CalculateNumberOfPossibleDesigns()}");
+
