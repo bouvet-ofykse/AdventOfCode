@@ -1,4 +1,4 @@
-namespace AdventOfCode2024._4;
+namespace AdventOfCode2024._04;
 
 public class December4_PartTwo
 {

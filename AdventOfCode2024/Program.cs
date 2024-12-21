@@ -1,18 +1,4 @@
-﻿using AdventOfCode2024._1;
-using AdventOfCode2024._10;
-using AdventOfCode2024._11;
-using AdventOfCode2024._13;
-using AdventOfCode2024._14;
-using AdventOfCode2024._16;
-using AdventOfCode2024._19;
-using AdventOfCode2024._2;
-using AdventOfCode2024._3;
-using AdventOfCode2024._4;
-using AdventOfCode2024._5;
-using AdventOfCode2024._6;
-using AdventOfCode2024._7;
-using AdventOfCode2024._8;
-using AdventOfCode2024._9;
+﻿using AdventOfCode2024._16;
 
 // Day 1
 // Console.WriteLine($"December 1 - Part 1: {December1_PartOne.CalculateDistance()}");

@@ -1,4 +1,4 @@
-namespace AdventOfCode2024._2;
+namespace AdventOfCode2024._07;
 
 public class Equation
 {

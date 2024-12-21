@@ -1,6 +1,6 @@
 using AdventOfCode2024._4;
 
-namespace AdventOfCode2024._5;
+namespace AdventOfCode2024._05;
 
 public static class December5_PartOne
 {
