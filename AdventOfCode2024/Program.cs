@@ -59,10 +59,12 @@ using AdventOfCode2024._9;
 // Day 12
 
 // Day 13
+// Console.WriteLine($"December 13 - Part 1: {December13_PartOne.CalculateTokensToWinAllPrizes()}");
+Console.WriteLine($"December 13 - Part 2: {December13_PartTwo.CalculateTokensToWinAllPrizes()}");
 
 // Day 14
 // Console.WriteLine($"December 14 - Part 1: {December14.CalculateBathroomSaftyFactor()}");
 
 // Day 14
 // Console.WriteLine($"December 19 - Part 1: {December19_PartOne.CalculateNumberOfPossibleDesigns()}");
-Console.WriteLine($"December 19 - Part 2: {December19_PartTwo.CalculateNumberOfPossibleDesigns()}");
+// Console.WriteLine($"December 19 - Part 2: {December19_PartTwo.CalculateNumberOfPossibleDesigns()}");
