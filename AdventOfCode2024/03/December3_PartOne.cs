@@ -6,7 +6,7 @@ public static class December3_PartOne
 {
     public static int CalculateResults()
     {
-        string content = File.ReadAllText("../../../3/PuzzleInput.txt");
+        string content = File.ReadAllText("../../../03/PuzzleInput.txt");
         int sum = 0;
 
         using (StringReader reader = new StringReader(content))

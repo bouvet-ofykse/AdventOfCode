@@ -5,7 +5,7 @@ public class December1_PartTwo
     public static int CalculateSimilarity()
     {
             string line;
-            string content = File.ReadAllText("../../../1/PuzzleInput.txt");
+            string content = File.ReadAllText("../../../01/PuzzleInput.txt");
             int sum = 0;
             List<int> list1 = new List<int>();
             List<int> list2 = new List<int>();

@@ -5,7 +5,7 @@ public class December2_PartTwo
     public static int CalculateSafeReports()
     {
         string line;
-        string content = File.ReadAllText("../../../2/PuzzleInput.txt");
+        string content = File.ReadAllText("../../../02/PuzzleInput.txt");
         int safeReports = 0;
 
         using (StringReader reader = new StringReader(content))

@@ -5,7 +5,7 @@ public class December1_PartOne
     public static int CalculateDistance()
     {
         string line;
-        string content = File.ReadAllText("../../../1/PuzzleInput.txt");
+        string content = File.ReadAllText("../../../01/PuzzleInput.txt");
         int sum = 0;
         
         List<int> list1 = new List<int>();

@@ -9,7 +9,7 @@ public static class December5_PartOne
 
     public static int CalculateSafeUpdates()
     {
-        string content = File.ReadAllText("../../../5/PuzzleInput.txt");
+        string content = File.ReadAllText("../../../05/PuzzleInput.txt");
         int sum = 0;
         string? line;
 

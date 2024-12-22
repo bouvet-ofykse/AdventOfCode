@@ -8,7 +8,7 @@ public static class December9_PartOne
     public static long CalculateFilesystemChecksum()
     {
         long checksum = 0;
-        var diskMap = File.ReadAllText("../../../9/PuzzleInput.txt").ToList().Select(c => int.Parse(c.ToString())).ToList();
+        var diskMap = File.ReadAllText("../../../09/PuzzleInput.txt").ToList().Select(c => int.Parse(c.ToString())).ToList();
         var blockId = 0;
 
         for (int block = 0; block < diskMap.Count; block++)

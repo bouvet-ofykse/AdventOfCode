@@ -11,7 +11,7 @@ public static class December8_PartTwo
 
     public static int CalculateUniqeLocationsOfAntinode()
     {
-        var lines = File.ReadLines("../../../8/PuzzleInput.txt").ToList();
+        var lines = File.ReadLines("../../../08/PuzzleInput.txt").ToList();
 
         _mapWidth = lines[0].Length;
         _mapHeight = lines.Count;

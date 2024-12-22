@@ -8,7 +8,7 @@ public class December4_PartTwo
 
     public static int FinNumberOfXmasAppearences()
     {
-        string content = File.ReadAllText("../../../4/PuzzleInput.txt");
+        string content = File.ReadAllText("../../../04/PuzzleInput.txt");
         int sum = 0;
         string input;
 

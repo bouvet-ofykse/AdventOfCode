@@ -19,7 +19,7 @@ public static class December6_PartOne
 
     public static int PredictGuardsRoute()
     {
-        string content = File.ReadAllText("../../../6/PuzzleInput.txt");
+        string content = File.ReadAllText("../../../06/PuzzleInput.txt");
         string? line;
 
         using (StringReader reader = new StringReader(content))
