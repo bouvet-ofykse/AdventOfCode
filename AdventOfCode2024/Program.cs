@@ -72,5 +72,6 @@ using AdventOfCode2024._22;
 // Day 21
 
 // Day 22
-Console.WriteLine($"December 22 - Part 1: {December22_PartOne.CalculateSumOfSecretNumbers()}");
+// Console.WriteLine($"December 22 - Part 1: {December22_PartOne.CalculateSumOfSecretNumbers()}");
+Console.WriteLine($"December 22 - Part 1: {December22_PartTwo.CalculateSumOfSecretNumbers()}");
 
