@@ -1,4 +1,6 @@
 ﻿using AdventOfCode2024._16;
+using AdventOfCode2024._19;
+using AdventOfCode2024._22;
 
 // Day 1
 // Console.WriteLine($"December 1 - Part 1: {December1_PartOne.CalculateDistance()}");
@@ -55,7 +57,7 @@
 // Day 15
 
 // Day 16
-Console.WriteLine($"December 16 - Part 1: {December16_PartOne.CalculateLowestReindeerScore()}");
+// Console.WriteLine($"December 16 - Part 1: {December16_PartOne.CalculateLowestReindeerScore()}");
 
 // Day 17
 
@@ -64,4 +66,11 @@ Console.WriteLine($"December 16 - Part 1: {December16_PartOne.CalculateLowestRei
 // Day 19
 // Console.WriteLine($"December 19 - Part 1: {December19_PartOne.CalculateNumberOfPossibleDesigns()}");
 // Console.WriteLine($"December 19 - Part 2: {December19_PartTwo.CalculateNumberOfPossibleDesigns()}");
+
+// Day 20
+
+// Day 21
+
+// Day 22
+Console.WriteLine($"December 22 - Part 1: {December22_PartOne.CalculateSumOfSecretNumbers()}");
 
