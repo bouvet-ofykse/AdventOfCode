@@ -3,4 +3,4 @@
 
 https://adventofcode.com/2024
 
-![](https://img.shields.io/badge/day%20📅-23-blue) &nbsp;&nbsp;&nbsp; ![](https://img.shields.io/badge/stars%20⭐-27-yellow) &nbsp;&nbsp;&nbsp; ![](https://img.shields.io/badge/days%20completed-12-red)
+![](https://img.shields.io/badge/day%20📅-25-blue) &nbsp;&nbsp;&nbsp; ![](https://img.shields.io/badge/stars%20⭐-29-yellow) &nbsp;&nbsp;&nbsp; ![](https://img.shields.io/badge/days%20completed-13-red)
