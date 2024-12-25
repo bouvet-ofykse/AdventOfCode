@@ -1,6 +1,7 @@
 ﻿using AdventOfCode2024._16;
 using AdventOfCode2024._19;
 using AdventOfCode2024._22;
+using AdventOfCode2024._25;
 
 // Day 1
 // Console.WriteLine($"December 1 - Part 1: {December1_PartOne.CalculateDistance()}");
@@ -73,5 +74,12 @@ using AdventOfCode2024._22;
 
 // Day 22
 // Console.WriteLine($"December 22 - Part 1: {December22_PartOne.CalculateSumOfSecretNumbers()}");
-Console.WriteLine($"December 22 - Part 1: {December22_PartTwo.CalculateSumOfSecretNumbers()}");
+// Console.WriteLine($"December 22 - Part 1: {December22_PartTwo.CalculateSumOfSecretNumbers()}");
+
+// Day 23
+
+// Day 24
+
+// Day 25
+Console.WriteLine($"December 25 - Part 1: {December25_PartOne.CalculateUniqueLockKeyPairs()}");
 
