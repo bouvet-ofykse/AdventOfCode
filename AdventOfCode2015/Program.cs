@@ -4,6 +4,7 @@ using AdventOfCode2015._02;
 using AdventOfCode2015._03;
 using AdventOfCode2015._04;
 using AdventOfCode2015._05;
+using AdventOfCode2015._06;
 using AdventOfCode2015._1;
 
 
@@ -24,5 +25,9 @@ using AdventOfCode2015._1;
 // Console.WriteLine($"December 4 - Part 1: {December4_PartTwo.CalculateHashForAdventCoins()}");
 
 // Day 5
-Console.WriteLine($"December 5 - Part 1: {December5_PartOne.CalculateNumberOfNiceStrings()}");
-Console.WriteLine($"December 5 - Part 2: {December5_PartTwo.CalculateNumberOfNiceStrings()}");
+// Console.WriteLine($"December 5 - Part 1: {December5_PartOne.CalculateNumberOfNiceStrings()}");
+// Console.WriteLine($"December 5 - Part 2: {December5_PartTwo.CalculateNumberOfNiceStrings()}");
+
+// Day 5
+// Console.WriteLine($"December 6 - Part 1: {December6_PartOne.CalculateNumberOfLightsLit()}");
+Console.WriteLine($"December 5 - Part 2: {December6_PartTwo.CalculateBrightnessOfLights()}");
