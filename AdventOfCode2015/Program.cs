@@ -28,6 +28,6 @@ using AdventOfCode2015._1;
 // Console.WriteLine($"December 5 - Part 1: {December5_PartOne.CalculateNumberOfNiceStrings()}");
 // Console.WriteLine($"December 5 - Part 2: {December5_PartTwo.CalculateNumberOfNiceStrings()}");
 
-// Day 5
+// Day 6
 // Console.WriteLine($"December 6 - Part 1: {December6_PartOne.CalculateNumberOfLightsLit()}");
 Console.WriteLine($"December 5 - Part 2: {December6_PartTwo.CalculateBrightnessOfLights()}");
