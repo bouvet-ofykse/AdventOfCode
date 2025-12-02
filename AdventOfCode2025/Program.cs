@@ -8,5 +8,6 @@ using AdventOfCode2025._02;
 // Console.WriteLine($"December 1 - Part 2: {December1_PartTwo.CalculatePassword()}");
 
 // Day 2
-Console.WriteLine($"December 2 - Part 1: {December2_PartOne.CalculateSumOfInvalidIds()}");
+// Console.WriteLine($"December 2 - Part 1: {December2_PartOne.CalculateSumOfInvalidIds()}");
+Console.WriteLine($"December 2 - Part 2: {December2_PartTwo.CalculateSumOfInvalidIds()}");
 
