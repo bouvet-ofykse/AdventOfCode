@@ -13,5 +13,6 @@ using AdventOfCode2025._03;
 // Console.WriteLine($"December 2 - Part 2: {December2_PartTwo.CalculateSumOfInvalidIds()}");
 
 // Day 3
-Console.WriteLine($"December 3 - Part 1: {December3_PartOne.CalculateSumJoltage()}");
+// Console.WriteLine($"December 3 - Part 1: {December3_PartOne.CalculateSumJoltage()}");
+Console.WriteLine($"December 3 - Part 2: {December3_PartTwo.CalculateSumJoltage()}");
 
