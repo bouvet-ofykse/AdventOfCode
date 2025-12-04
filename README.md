@@ -6,7 +6,7 @@
 ### 2025
 https://adventofcode.com/2025
 
-![](https://img.shields.io/badge/day%20📅-3-blue) &nbsp;&nbsp;&nbsp; ![](https://img.shields.io/badge/stars%20⭐-6-yellow) &nbsp;&nbsp;&nbsp; ![](https://img.shields.io/badge/days%20completed-3-red)
+![](https://img.shields.io/badge/day%20📅-4-blue) &nbsp;&nbsp;&nbsp; ![](https://img.shields.io/badge/stars%20⭐-8-yellow) &nbsp;&nbsp;&nbsp; ![](https://img.shields.io/badge/days%20completed-4-red)
 
 ### 2024
 https://adventofcode.com/2024
