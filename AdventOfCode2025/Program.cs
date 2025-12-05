@@ -4,6 +4,7 @@ using AdventOfCode2025._01;
 using AdventOfCode2025._02;
 using AdventOfCode2025._03;
 using AdventOfCode2025._04;
+using AdventOfCode2025._05;
 
 
 // Day 1
@@ -20,4 +21,8 @@ using AdventOfCode2025._04;
 
 // Day 4
 // Console.WriteLine($"December 4 - Part 1: {December4_PartOne.ClalculateRollsOfPaperAccessedByForklift()}");
-Console.WriteLine($"December 4 - Part 2: {December4_PartTwo.ClalculateRollsOfPaperRemovedByForklift()}");
+// Console.WriteLine($"December 4 - Part 2: {December4_PartTwo.ClalculateRollsOfPaperRemovedByForklift()}");
+
+// Day 5
+// Console.WriteLine($"December 5 - Part 1: {December5_PartOne.CalculateNumberOfFreshIngredients()}");
+Console.WriteLine($"December 5 - Part 1: {December5_PartTwo.CalculateNumberOfFreshIngredientIds()}");
