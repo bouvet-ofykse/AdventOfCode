@@ -5,6 +5,7 @@ using AdventOfCode2022._02;
 using AdventOfCode2022._03;
 using AdventOfCode2022._04;
 using AdventOfCode2022._05;
+using AdventOfCode2022._06;
 
 // Day 1
 
@@ -25,4 +26,8 @@ using AdventOfCode2022._05;
 
 // Day 5
 // Console.WriteLine($"December 5 - Part 1: {December5_PartOne.RearrangeStacks()}");
-Console.WriteLine($"December 5 - Part 2: {December5_PartTwo.RearrangeStacks()}");
+// Console.WriteLine($"December 5 - Part 2: {December5_PartTwo.RearrangeStacks()}");
+
+// Day 6
+// Console.WriteLine($"December 6 - Part 1: {December6_PartOne.CalculateStartOfPacketMarker()}");
+Console.WriteLine($"December 6 - Part 2: {December6_PartTwo.CalculateStartOfMessageMarker()}");
