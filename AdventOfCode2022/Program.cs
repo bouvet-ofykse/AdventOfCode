@@ -4,6 +4,7 @@ using AdventOfCode2022._01;
 using AdventOfCode2022._02;
 using AdventOfCode2022._03;
 using AdventOfCode2022._04;
+using AdventOfCode2022._05;
 
 // Day 1
 
@@ -20,4 +21,8 @@ using AdventOfCode2022._04;
 
 // Day 4
 // Console.WriteLine($"December 4 - Part 1: {December4_PartOne.CalculatereducedAssignmentPairs()}");
-Console.WriteLine($"December 4 - Part 1: {December4_PartTwo.CalculateReducedAssignmentPairs()}");
+// Console.WriteLine($"December 4 - Part 1: {December4_PartTwo.CalculateReducedAssignmentPairs()}");
+
+// Day 5
+// Console.WriteLine($"December 5 - Part 1: {December5_PartOne.RearrangeStacks()}");
+Console.WriteLine($"December 5 - Part 2: {December5_PartTwo.RearrangeStacks()}");
