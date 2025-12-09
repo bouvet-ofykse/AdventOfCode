@@ -7,6 +7,7 @@ using AdventOfCode2025._04;
 using AdventOfCode2025._05;
 using AdventOfCode2025._06;
 using AdventOfCode2025._07;
+using AdventOfCode2025._09;
 
 
 // Day 1
@@ -33,6 +34,10 @@ using AdventOfCode2025._07;
 // Console.WriteLine($"December 6 - Part 1: {December6_PartOne.CalculateTotalSumOfMathProblems()}");
 // Console.WriteLine($"December 6 - Part 2: {December6_PartTwo.CalculateTotalSumOfMathProblems()}");
 
-// Day 6
-Console.WriteLine($"December 7 - Part 1: {December7_PartOne.CalculateBeamSplits()}");
-Console.WriteLine($"December 7 - Part 1: {December7_PartTwo.CalculateNumberOfTimelines()}");
+// Day 7
+// Console.WriteLine($"December 7 - Part 1: {December7_PartOne.CalculateBeamSplits()}");
+// Console.WriteLine($"December 7 - Part 1: {December7_PartTwo.CalculateNumberOfTimelines()}");
+
+
+// Day 9
+Console.WriteLine($"December 79- Part 1: {December9_PartOne.CalculateAreaOfTheLargestRectangle()}");
