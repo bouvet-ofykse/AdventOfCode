@@ -18,6 +18,10 @@ jobs:
         with:
           userid: 4228914                          # your user id, see setup on how to obtain
           session: ${{ secrets.AOC_SESSION }}    # secret containing session code, see setup on how to obtain
+          year: 2026
+          dayRegex: '(?<=https:\/\/img\.shields\.io\/badge\/day%20\[2026\]%20📅-)[0-9]+(?=-blue)'
+          starsRegex: '(?<=https:\/\/img\.shields\.io\/badge\/stars%20\[2026\]%20⭐-)[0-9]+(?=-yellow)'
+          daysCompletedRegex: '(?<=https:\/\/img\.shields\.io\/badge\/days%20completed%20\[2026\]%20-)[0-9]+(?=-red)'
           
 #         Optional inputs:
 #         
