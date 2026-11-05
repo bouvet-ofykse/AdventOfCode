@@ -23,7 +23,7 @@ jobs:
           dayRegex: '(?<=https:\/\/img\.shields\.io\/badge\/day%20\[2026\]%20📅-)[0-9]+(?=-blue)'
           starsRegex: '(?<=https:\/\/img\.shields\.io\/badge\/stars%20\[2026\]%20⭐-)[0-9]+(?=-yellow)'
           daysCompletedRegex: '(?<=https:\/\/img\.shields\.io\/badge\/days%20completed%20\[2026\]%20-)[0-9]+(?=-red)'
-          
+          leaderboard: 'https://adventofcode.com/2026/leaderboard/private/view/4228914.json'
 #         Optional inputs:
 #         
 #         year: 20XX                                                                                     # The year for which stats should be retrieved
